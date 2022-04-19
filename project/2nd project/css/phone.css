@@ -1,0 +1,105 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul {
+    flex-wrap: wrap;
+}
+
+#navbar ul li {
+    margin: 1px 0px;
+}
+
+
+
+
+/* home section */
+#home{
+    padding: 6px 0px;
+    height: 539px
+
+}
+
+#home::before {
+    height: 696px
+}
+#home p {
+    padding: 6px 0px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* service section */
+#services {
+    flex-direction: column;
+    padding: 10px 0px; 
+    margin: 9px 0px 17px;
+}
+#service-container h1{
+    padding: 22px 0px;
+
+}
+#services .box {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+#services .box img {
+    height: 130px;
+}
+
+
+/* client section */
+
+
+#client-section{
+    height: 370px;
+    overflow: hidden;
+}
+
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#client-item {
+    padding: 5px;
+}
+
+
+#client-item img {
+    height: 78px;
+}
+
+
+
+
+
+
+
+/* contact section */
+#contact-box form{
+    width:80%;
+}
+
+
+
+
+
+/* footer */
+
+
+
+
+/* utitity class */
+.h-primary {
+    font-size: 2.8rem;
+    }
+.h-secondry {
+        font-size: 1.2rem;
+    }

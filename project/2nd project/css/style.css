@@ -1,0 +1,227 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: o;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar */
+#navbar{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    /* position: relative; */
+    position:sticky;
+    /* width: 100%; */
+    top: 0px;
+
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+    z-index: -1;
+   
+}
+
+/* logo and image  */
+#logo{
+    margin: 0px 7px;
+    padding: 6px 7px;
+}
+ 
+#logo img{
+    height: 47px;
+    margin: 2px 2px;
+    padding: 3px 4px;
+    border-radius: 28px;
+}
+
+/* navbar list menu */
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 16px 13px;
+    
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 9px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    color:black;
+   background-color: white;
+}
+
+/* home secton */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    height: 442px; 
+    
+
+}
+
+#home::before{
+    content: "";
+    background: url(../pics/background.jpg);
+    position:absolute;
+    height: 569px;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    
+   
+}
+#home h1{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+}
+#home p{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    font-size: 1.4rem
+}
+
+/* services section */
+
+#services{
+    margin: 13px 15px 28px;
+    display: flex;
+}
+
+#services .box{
+    border-radius: 24px;
+    border: 2px solid brown;
+    margin: 0px 4px;
+    padding: 20px;
+    background-color: #f6f2f2;
+}
+#services .box img{
+    display: block;
+    height: 150px;
+    margin: auto;
+}
+
+/* client section */
+
+#client-section{
+    height: 300px;
+    position: relative;
+}
+
+#client-section::before{
+   content: "";
+   background: url(../pics/background3.jpg);
+   position:absolute;
+   height: 100%;
+   width: 100%;
+   opacity: 0.58;
+   z-index: -1;
+}
+
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#client-item{
+     padding: 15px;
+}
+
+#client-item img{
+    height: 124px;
+   
+}
+/* contact section */
+#contact{
+    margin: 20px 0px;
+    position: relative;
+}
+#contact::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(../pics/contact\ back.jpg)no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 23px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box form label{
+   font-size: 1.2rem;
+}
+
+
+
+
+/* footer section */
+footer{
+    background-color: black;
+    color: wheat;
+    padding: 4px 20px ;
+}
+
+/* utility class */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.h-secondry{
+    font-size: 2.3rem;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    background-color: #d8bbb2;
+    border: 2px solid wheat;
+    padding: 6px 20px;
+    margin: 20px 23px;
+    font-size: 1.4rem;
+    border-radius: 14px;
+    cursor: pointer;
+}

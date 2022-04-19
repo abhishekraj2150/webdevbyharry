@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        /* body {
+             padding: 0px;
+             margin: 0px;  
+        } */
+
+        .container {
+            background-color: springgreen;
+            border: 2px solid burlywood;
+            padding: 78px;
+            margin: 34px;
+        }
+        .cont2 {
+            background-color: rgb(38, 73, 56);
+            border: 2px solid rgb(224, 14, 42);
+            /* padding-top:45px ;
+            padding-right: 56px;
+            padding-left: 20px; */
+            /* padding:top right bottom left; */
+            padding: 23px 34px 45px 45px;
+        }
+
+        .cont3 {
+            background-color: rgb(142, 160, 240);
+            border: 2px solid rgb(238, 92, 165);
+            padding: 34px 12px;
+            /* padding: y(top,bottom) x(left,right)*/
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 233px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sed earum dicta odio.
+            Excepturi, fugiat ratione eos maxime explicabo ipsum cum fuga nulla.
+        <p>
+    </div>
+    <div class="container">
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sed earum dicta odio.
+            Excepturi, fugiat ratione eos maxime explicabo ipsum cum fuga nulla.</p>
+    </div>
+
+    <div class="cont2">
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sed earum dicta odio.
+            Excepturi, fugiat ratione eos maxime explicabo ipsum cum fuga nulla.</p>
+    </div>
+    <div class="cont3">
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sed earum dicta odio.
+            Excepturi, fugiat ratione eos maxime explicabo ipsum cum fuga nulla.</p>
+    </div>
+    <!-- <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sed earum dicta odio. Excepturi, fugiat ratione eos maxime explicabo ipsum cum fuga nulla.</p> -->
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abhishek fitness centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* css reset  */
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(pics/women-655353_1920.jpg);
+            color: white;
+        }
+
+        .container {
+            /* border: 2px solid greenyellow; */
+            background-color: transparent;
+            padding: 6px 10px;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 10px;
+            left: 12px;
+        }
+
+        .left img {
+            width: 100px;
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 66%;
+            margin: 20px auto;
+            /* border: 2px solid rgb(6, 20, 221); */
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 43px 64px;
+        }
+
+        .navbar li a:hover,
+        .navbar li.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 12px;
+            top: 31px;
+            display: inline-block;
+            /* border: 2px solid rgb(202, 236, 5); */
+        }
+
+        .btn {
+            padding: 6px 25px;
+            margin: 9px 6px;
+            background-color: #c2a9a9;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="left">
+                <img src="pics/logo.jpg" alt="">
+                <div>abhishek center</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">membership</a></li>
+                    <li><a href="">contact us</a></li>
+                </ul>
+
+            </div>
+
+            <div class="right">
+                <button class="btn">call us </button>
+                <button class="btn">email us </button>
+
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
